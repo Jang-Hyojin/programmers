@@ -1,0 +1,7 @@
+def solution(s):
+    ans = ''
+    s = s.split(' ') # ' ' 기준으로 잘린 문자열이 리스트로 저장
+    for i in range(len(s)):
+        s[i] = s[i].capitalize()
+    
+    return ' '.join(s)
