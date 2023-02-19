@@ -1,0 +1,9 @@
+def solution(phone_number):
+    new = []
+    for i in range(len(phone_number)-4):
+        new.append('*')
+
+    new.append(phone_number[-4:])
+    new = "".join(new)
+        
+    return new
