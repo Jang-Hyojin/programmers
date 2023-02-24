@@ -1,0 +1,13 @@
+def solution(arr, div):
+    ans = []
+    for i in arr:
+        if i%div == 0:
+            ans.append(i)
+        # print(ans)
+    ans.sort()
+    # print(ans)
+
+    if len(ans) == 0:
+        return [-1]
+        
+    return ans
